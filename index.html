@@ -1,78 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BetterMB</title>
-    <script>
-        function changeDocumentStyle()
-        {
-            document.getElementsByTagName("body")[0].classList.toggle("styled");
-        }
-    </script>
 </head>
-<body class="styled">
-    <header>
-    <h1 id="bettermb" class="main-title">BetterMB</h1>
-    <a href="#" id="classic-view-button" class="style-button" onclick="changeDocumentStyle()">Classic View</a>
-    <a href="#" id="normal-view-button" class="style-button" onclick="changeDocumentStyle()">Normal View</a>
-    </header>
-    <main>
-    <p>A program to substitute the SU meal booking system that offers a better user
-    experience than the one provided by Stellenbosch University. The name
-    "BetterMB" is still up for debate.</p>
-    <h2 class="section-heading">GUI - Desktop Application</h2>
-    <table class="downloads-table" border="1">
+<body>
+    <h1 id="bettermb">BetterMB</h1>
+    <p>A CLI client for the SU meal booking system that offers a better user experience than the one provided by Stellenbosch University. The name "BetterMB" is still up for debate.</p>
+    <p>For now, BetterMB is mainly useful for those who know the basics of the command line. A GUI version will be released eventually.</p>
+    <h2 id="requirements">Requirements</h2>
+    <ul>
+        <li><a target="_blank" href="https://www.oracle.com/java/technologies/downloads/#java21">Java 21</a></li>
+    </ul>
+    <h2 id="install">Install</h2>
+    <ol>
+        <li>Download the archive for you operating system</li>
+        <li>Extract the archive</li>
+        <li><code>cd extracted_path/bin</code></li>
+        <li><code>./bettermb</code></li>
+        <li>(Optional) Add bettermb to path</li>
+    </ol>
+    <table border="1">
         <thead>
             <tr>
                 <th>Version</th>
                 <th>Windows</th>
                 <th>Unix</th>
-                <th>Java 21+</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td class="version-cell">v1.0.0</td>
+                <td>v1.0.0-beta</td>
                 <td><a href="releases/v1.0.0-beta/bettermb.zip">bettermb.zip</a></td>
-                <td><a href="releases/v1.0.0-beta/bettermb.tar">bettermb.tar</a></td>
-                <td><a href="releases/v1.0.0-beta/bettermb.tar">bettermb.tar</a></td>
-            </tr>
-            <tr>
-                <td class="version-cell">v1.0.0-beta</td>
-                <td><a href="releases/v1.0.0-beta/bettermb.zip">bettermb.zip</a></td>
-                <td><a href="releases/v1.0.0-beta/bettermb.tar">bettermb.tar</a></td>
                 <td><a href="releases/v1.0.0-beta/bettermb.tar">bettermb.tar</a></td>
             </tr>
         </tbody>
     </table>
-    <h2 class="section-heading">CLI - Terminal Interface</h2>
-    <table class="downloads-table" border="1">
-        <thead>
-            <tr>
-                <th>Version</th>
-                <th>Windows</th>
-                <th>Unix</th>
-                <th>Java 21+</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="version-cell">v0.2.0-beta</td>
-                <td><a href="releases/v1.0.0-beta/bettermb.zip">bettermb.zip</a></td>
-                <td><a href="releases/v1.0.0-beta/bettermb.tar">bettermb.tar</a></td>
-                <td><a href="releases/v1.0.0-beta/bettermb.tar">bettermb.tar</a></td>
-            </tr>
-            <tr>
-                <td class="version-cell">v0.1.0-beta</td>
-                <td><a href="releases/v1.0.0-beta/bettermb.zip">bettermb.zip</a></td>
-                <td><a href="releases/v1.0.0-beta/bettermb.tar">bettermb.tar</a></td>
-                <td><a href="releases/v1.0.0-beta/bettermb.tar">bettermb.tar</a></td>
-            </tr>
-        </tbody>
-    </table>
-    <h2 class="section-heading">Contributing to BetterMB</h2>
+    <h2 id="contributing-to-bettermb">Contributing to BetterMB</h2>
     <p>BetterMB is looking for contributors and would like your support</p>
     <p>Any of the following is appreciated:</p>
     <ul>
@@ -86,8 +51,7 @@
         <li><a href="mailto:elaijoubert@gmail.com">elaijoubert@gmail.com</a></li>
         <li><a href="mailto:28178564@sun.ac.za">28178564@sun.ac.za</a></li>
     </ul>
-    <h2 class="section-heading">License</h2>
+    <h2>License</h2>
     <p>BetterMB is under the GNU General Public License</p>
-    </main>
 </body>
 </html>
